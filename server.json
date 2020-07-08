@@ -1,0 +1,75 @@
+{
+  "playlists": [
+    {
+      "id": 1,
+      "title": "Radar de Novidades",
+      "description": "Radar de Novidades - Spotify",
+      "thumbnail": "https://timeline.canaltech.com.br/113767.1400/spotify-lanca-radar-de-novidades-nova-playlist-de-sugestoes-para-os-usuarios.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Viagem",
+      "description": "Viagem Jonatas",
+      "thumbnail": "https://alexnunes.com.br/imagens/playlist-01.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Coral Kemuel",
+      "description": "Só as melhores do Coral Kemuel, cantando os clássicos",
+      "thumbnail": "https://studiosol-a.akamaihd.net/letras/272x272/albuns/5/4/6/f/455951441041695.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Alladin 2019 movie",
+      "description": "As melhores da trilha sonora do filme que cativou o público",
+      "thumbnail": "https://is5-ssl.mzstatic.com/image/thumb/Video123/v4/fa/ab/d6/faabd6a9-69cb-1f01-ca4e-a2c9eb038f19/pr_source.lsr/268x0w.jpg"
+    }
+  ],
+  "songs": [
+    {
+      "id": 0,
+      "title": "Papercut",
+      "author": "Linkin Park",
+      "album": "Hybrid Theory",
+      "file": "https://s3-sa-east-1.amazonaws.com/gonative/1.mp3",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "playlistId": 1
+    },
+    {
+      "id": 1,
+      "title": "One Step Closer",
+      "author": "Linkin Park",
+      "album": "Hybrid Theory",
+      "file": "https://s3-sa-east-1.amazonaws.com/gonative/2.mp3",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "playlistId": 2
+    },
+    {
+      "id": 2,
+      "title": "With You",
+      "author": "Linkin Park",
+      "album": "Hybrid Theory",
+      "file": "https://s3-sa-east-1.amazonaws.com/gonative/3.mp3",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "playlistId": 3
+    },
+    {
+      "id": 3,
+      "title": "Points of Authority",
+      "author": "Linkin Park",
+      "album": "Hybrid Theory",
+      "file": "https://s3-sa-east-1.amazonaws.com/gonative/4.mp3",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "playlistId": 4
+    },
+    {
+      "id": 4,
+      "title": "Crawling",
+      "author": "Linkin Park",
+      "album": "Hybrid Theory",
+      "file": "https://s3-sa-east-1.amazonaws.com/gonative/5.mp3",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "playlistId": 4
+    }
+  ]
+}
