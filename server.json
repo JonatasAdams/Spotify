@@ -2,9 +2,9 @@
   "playlists": [
     {
       "id": 1,
-      "title": "Radar de Novidades",
-      "description": "Radar de Novidades - Spotify",
-      "thumbnail": "https://timeline.canaltech.com.br/113767.1400/spotify-lanca-radar-de-novidades-nova-playlist-de-sugestoes-para-os-usuarios.jpg"
+      "title": "Rosa de Saron",
+      "description": "Rosa de Saron - Lunação",
+      "thumbnail": "https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/3/f/3/9/840141579866677.jpg"
     },
     {
       "id": 2,
@@ -28,47 +28,62 @@
   "songs": [
     {
       "id": 0,
-      "title": "Papercut",
-      "author": "Linkin Park",
-      "album": "Hybrid Theory",
-      "file": "https://s3-sa-east-1.amazonaws.com/gonative/1.mp3",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "title": "A Fênix",
+      "author": "Rosa de Saron",
+      "album": "Lunação",
+      "file": "https://playlistspotify.s3.sa-east-1.amazonaws.com/Rosa%20de%20Saron/a-fenix-clipe-oficial.mp3",
+      "thumbnail": "https://i.kfs.io/album/global/48525744,0v1/fit/500x500.jpg",
+      "duration": "4:06",
       "playlistId": 1
     },
     {
       "id": 1,
-      "title": "One Step Closer",
-      "author": "Linkin Park",
-      "album": "Hybrid Theory",
-      "file": "https://s3-sa-east-1.amazonaws.com/gonative/2.mp3",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
-      "playlistId": 2
+      "title": "Lunação",
+      "author": "Rosa de Saron",
+      "album": "Lunação",
+      "file": "https://playlistspotify.s3.sa-east-1.amazonaws.com/Rosa%20de%20Saron/lunacao-lyric-video.mp3",
+      "thumbnail": "https://studiosol-a.akamaihd.net/uploadfile/letras/albuns/3/f/3/9/840141579866677.jpg",
+      "duration": "4:25",
+      "playlistId": 1
     },
     {
       "id": 2,
-      "title": "With You",
-      "author": "Linkin Park",
-      "album": "Hybrid Theory",
-      "file": "https://s3-sa-east-1.amazonaws.com/gonative/3.mp3",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
-      "playlistId": 3
+      "title": "Sobre a Dúvida",
+      "author": "Rosa de Saron",
+      "album": "Lunação",
+      "file": "https://playlistspotify.s3.sa-east-1.amazonaws.com/Rosa%20de%20Saron/sobre-a-duvida-clipe-oficial.mp3",
+      "thumbnail": "https://i.ytimg.com/vi/MtSSbnndzRU/maxresdefault.jpg",
+      "duration": "5:18",
+      "playlistId": 1
     },
     {
       "id": 3,
-      "title": "Points of Authority",
-      "author": "Linkin Park",
-      "album": "Hybrid Theory",
-      "file": "https://s3-sa-east-1.amazonaws.com/gonative/4.mp3",
-      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
-      "playlistId": 4
+      "title": "Mire as estrelas",
+      "author": "Rosa de Saron",
+      "album": "Lunação",
+      "file": "https://playlistspotify.s3.sa-east-1.amazonaws.com/Rosa%20de%20Saron/mire-as-estrelas-clipe-oficial.mp3",
+      "thumbnail": "https://i.ytimg.com/vi/U2nq2KqEeYI/maxresdefault.jpg",
+      "duration": "5:01",
+      "playlistId": 1
     },
     {
       "id": 4,
+      "title": "Um Dia",
+      "author": "Rosa de Saron",
+      "album": "Lunação",
+      "file": "https://playlistspotify.s3.sa-east-1.amazonaws.com/Rosa%20de%20Saron/Rosa%20de%20Saron%20-%20Um%20Dia%20%28Clipe%20Oficial%29.mp3",
+      "thumbnail": "https://i.ytimg.com/vi/k1WCVS9wcg4/maxresdefault.jpg",
+      "duration": "4:15",
+      "playlistId": 1
+    },
+    {
+      "id": 5,
       "title": "Crawling",
       "author": "Linkin Park",
       "album": "Hybrid Theory",
       "file": "https://s3-sa-east-1.amazonaws.com/gonative/5.mp3",
       "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "duration": "3:29",
       "playlistId": 4
     }
   ]

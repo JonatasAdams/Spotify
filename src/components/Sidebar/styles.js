@@ -20,10 +20,6 @@ export const Nav = styled.ul`
   list-style: none;
   margin-top: 25px;
 
-  &:first-child {
-    margin: 0;
-  }
-
   li {
     display: flex;
     align-items: center;
@@ -40,17 +36,30 @@ export const Nav = styled.ul`
       }
     }
     span {
-      font-size: 11px;
+      font-size: 12px;
       text-transform: uppercase;
       line-height: 22px;
       letter-spacing: 1.11px;
-      font-weight: 300;
+      font-weight: bold;
     }
 
     ${Spinner} {
       height: 15px;
       margin-left: 5px;
     }
+  }
+
+  h5 {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1.11px;
+  }
+
+  h4 {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1.11px;
+    border-bottom: 1px solid #282828;
   }
 `;
 

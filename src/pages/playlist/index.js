@@ -28,6 +28,7 @@ class Playlist extends Component {
             title: PropTypes.title,
             author: PropTypes.string,
             album: PropTypes.string,
+            duration: PropTypes.string,
           })
         ),
       }),
@@ -106,7 +107,7 @@ class Playlist extends Component {
                   <td>{song.title}</td>
                   <td>{song.author}</td>
                   <td>{song.album}</td>
-                  <td>12:39</td>
+                  <td>{song.duration}</td>
                 </SongItem>
               ))
             )}

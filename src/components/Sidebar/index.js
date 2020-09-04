@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import { Creators as PlaylistsActions } from "../../store/ducks/playlists";
+import logo from "../../assets/images/Spotify_Logo.png";
 import { Container, NewPlaylist, Nav } from "./styles";
 import Loading from '../Loading';
 import AddPlaylistIcon from "../../assets/images/add_playlist.svg";
@@ -27,46 +28,17 @@ class Sidebar extends Component {
   render() {
     return (
       <Container>
+        <img src={logo} alt="logo" />
         <div>
           <Nav main>
             <li>
-              <Link to="/">Navegar</Link>
+              <Link to="/">Início</Link>
             </li>
             <li>
-              <a href="">Rádio</a>
-            </li>
-          </Nav>
-
-          <Nav>
-            <li>
-              <span>SUA BIBLIOTECA</span>
+              <a href="/">Buscar</a>
             </li>
             <li>
-              <a href="">Seu Daily Mix</a>
-            </li>
-            <li>
-              <a href="">Tocados recentemente</a>
-            </li>
-            <li>
-              <a href="">Músicas</a>
-            </li>
-            <li>
-              <a href="">Álbums</a>
-            </li>
-            <li>
-              <a href="">Artistas</a>
-            </li>
-            <li>
-              <a href="">Estações</a>
-            </li>
-            <li>
-              <a href="">Arquivos locais</a>
-            </li>
-            <li>
-              <a href="">Vídeos</a>
-            </li>
-            <li>
-              <a href="">Podcasts</a>
+              <a href="/">Sua Biblioteca</a>
             </li>
           </Nav>
 
@@ -75,6 +47,8 @@ class Sidebar extends Component {
               <span>PLAYLISTS</span>
               {this.props.playlists.loading && <Loading />}
             </li>
+            <h5>Criar playlist</h5>
+            <h4>Músicas Curtidas</h4>
             {this.props.playlists.data.map(playlist => (
               <li key={playlist.id}>
                 <Link to={`/playlists/${playlist.id}`}>{playlist.title}</Link>
